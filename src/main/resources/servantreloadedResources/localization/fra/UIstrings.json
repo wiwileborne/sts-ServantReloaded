@@ -1,0 +1,27 @@
+{
+  "servantreloaded:ConfigMenu": {
+    "TEXT": [
+      "ServantReloaded",
+      "Wiwileborne, Auteurs original (BlackRuse)",
+      "v1.0\n Ajoute The Servant en tant que personnage jouable",
+      "ServantReloaded n'a pas encore de paramètres !"
+    ]
+  },
+  "servantreloaded:CardVisionScreen": {
+    "TEXT": [
+      "Choisissez une carte",
+      "Quelle sera l'intention de l'ennemi ?",
+      "Choisissez une carte temporelle"
+    ]
+  },
+  "servantreloaded:HandCardSelectScreen": {
+    "TEXT": [
+      "Dupliquer"
+    ]
+  },
+  "servantreloaded:TalkAction": {
+    "TEXT": [
+      "Le paradoxe temporel est déclenché..."
+    ]
+  }
+}

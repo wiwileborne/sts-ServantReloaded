@@ -1,0 +1,115 @@
+
+{
+  "servantreloaded:KnivesPower": {
+  "NAME": "Couteaux",
+  "DESCRIPTIONS": ["Vous avez actuellement #b", " #yCouteaux."]
+  },
+  "servantreloaded:EmbodimentPower": {
+  "NAME": "Incarnation",
+  "DESCRIPTIONS": ["À la fin de votre tour, ajoutez #b", " carte(s) #yTemporelle(s) à votre pile de pioche."]
+  },
+  "servantreloaded:UpgradedEmbodimentPower": {
+  "NAME": "Incarnation Améliorée",
+  "DESCRIPTIONS": ["À la fin de votre tour, ajoutez #b", " carte(s) #yTemporelle(s) #yAméliorée(s) à votre pile de pioche."]
+  },
+  "servantreloaded:FlawlessFormPower": {
+  "NAME": "Forme Parfaite",
+  "DESCRIPTIONS": ["Vous n'êtes pas affecté par #yFaiblesse, #yVulnérabilité ou #yFragilité."]
+  },
+  "servantreloaded:FloweringNightPower": {
+  "NAME": "Nuit Florissante",
+  "DESCRIPTIONS": ["À chaque fois que vous jouez une carte, piochez #b", " carte(s). Vous pouvez piocher #b", " carte(s) supplémentaire(s)."]
+  },
+  "servantreloaded:AmplifyDamagePower": {
+  "NAME": "Corrompus",
+  "DESCRIPTIONS": ["Cet ennemi subira #b", " dégâts supplémentaires lorsqu'il est attaqué."]
+  },
+  "servantreloaded:ProperPracticePower": {
+  "NAME": "Pratique Appropriée",
+  "DESCRIPTIONS": ["Au début de votre tour, vous pouvez choisir #yd'améliorer #b", " carte(s)."]
+  },
+  "servantreloaded:WasteNotPower": {
+  "NAME": "Ne Pas Gaspiller",
+  "DESCRIPTIONS": ["Dépensez tous vos [B] à la fin du tour pour piocher #b", " carte(s) supplémentaire(s) au tour suivant."]
+  },
+  "servantreloaded:MoonPhasePower": {
+  "NAME": "Phase Lunaire",
+  "DESCRIPTIONS": ["À la fin de votre tour, gagnez #b", " #yd'armure pour chaque pile de Faiblesse, Vulnérabilité et Fragilité sur vous."]
+  },
+  "servantreloaded:MurderousAuraPower": {
+  "NAME": "Aura Meurtrière",
+  "DESCRIPTIONS": ["Au début de votre tour, appliquez #b", " #yCorruption à TOUS les ennemis."]
+  },
+  "servantreloaded:DeadlinePower": {
+  "NAME": "Date Limite",
+  "DESCRIPTIONS": ["Le tour prochain, si l'ennemi ciblé a l'intention #yd'attaquer, appliquez #b", " #yCorruption et #yVulnérabilité.", "Le tour prochain, si l'ennemi ciblé n'a PAS l'intention #yd'attaquer, appliquez #b", " #yCorruption et #yVulnérabilité."]
+  },
+  "servantreloaded:RealityMarblePower": {
+  "NAME": "Marbre de la Réalité",
+  "DESCRIPTIONS": ["À la fin de votre tour, conservez jusqu'à #b", " carte. Les cartes que vous conservez perdent #yÉthérée pour ce combat."]
+  },
+  "servantreloaded:BladesPower": {
+  "NAME": "Lames d'Argent",
+  "DESCRIPTIONS": ["Chaque #yCouteau inflige #b", " dégâts supplémentaires."]
+  },
+  "servantreloaded:StarChefPower": {
+  "NAME": "Chef Étoilé",
+  "DESCRIPTIONS": ["Au début de votre tour, vous pouvez épuiser jusqu'à #b", " carte(s) et gagner le même montant d'énergie."]
+  },
+  "servantreloaded:StressRelieverPower": {
+  "NAME": "Soulagement du Stress",
+  "DESCRIPTIONS": ["Au début de votre tour, regardez les #b", " premières cartes de votre pile de pioche. Vous pouvez en défausser certaines."]
+  },
+  "servantreloaded:SurpressingFirePower": {
+  "NAME": "Feu de Suppression",
+  "DESCRIPTIONS": ["Chaque fois que vous dépensez une #yCouteau avec une carte, gagnez #b", " #yd'armure."]
+  },
+  "servantreloaded:TheWorldPower": {
+  "NAME": "Le Monde",
+  "DESCRIPTIONS": ["Ce tour-ci, la prochaine carte que vous jouez coûte #b0."]
+  },
+  "servantreloaded:TrueSightPower": {
+  "NAME": "Vraie Vue",
+  "DESCRIPTIONS": ["Les effets de #yVision seront toujours déclenchés."]
+  },
+  "servantreloaded:SatellitePower": {
+  "NAME": "Satellite",
+  "DESCRIPTIONS": ["Chaque fois que vous utilisez une Attaque, perdez #b1 #ySatellite et attaquez une fois de plus pour #b", " dégâts. Chaque fois que vous êtes attaqué, perdez #b1 #ySatellite et infligez #b4 dégâts à l'attaquant."]
+  },
+  "servantreloaded:SnipePower": {
+  "NAME": "Tir de Précision",
+  "DESCRIPTIONS": ["Le tour prochain, si l'ennemi ciblé a l'intention d' #yattaquer, Lancez un #yCouteau. Infligez #b", " dégâts.", "Le tour prochain, si l'ennemi ciblé n'a PAS l'intention #yd'attaquer, Lancez un #yCouteau. Infligez #b", " dégâts."]
+  },
+  "servantreloaded:TimeTheftPower": {
+  "NAME": "Vol de Temps",
+  "DESCRIPTIONS": ["Le tour prochain, si l'ennemi ciblé a l'intention d' #yattaquer, gagnez #b", " énergie. Piochez #b", " carte(s).", "Le tour prochain, si l'ennemi ciblé n'a PAS l'intention #yd'attaquer, gagnez #b", " énergie. Piochez #b", " carte(s)."]
+  },
+  "servantreloaded:ReadPower": {
+  "NAME": "Lecture",
+  "DESCRIPTIONS": ["Le tour prochain, si l'ennemi ciblé a l'intention d' #yattaquer, gagnez #b", " #yProtection et appliquez #b", " #yFaiblesse.", "Le tour prochain, si l'ennemi ciblé n'a PAS l'intention #yd'attaquer, gagnez #b", " #yProtection et appliquez #b", " #yFaiblesse."]
+  },
+  "servantreloaded:ManipulatePower": {
+  "NAME": "Manipulation",
+  "DESCRIPTIONS": ["Ajoute #b2 cartes Temporelles aléatoires à votre pile de pioche."]
+  },
+  "servantreloaded:ReturningBladePower": {
+  "NAME": "Lame Renvoyée",
+  "DESCRIPTIONS": ["Le tour prochain, si l'ennemi ciblé a l'intention d' #yattaquer, infligez #b", " dégâts et mettez une copie de cette carte dans votre main.", "Le tour prochain, si l'ennemi ciblé n'a PAS l'intention #yd'attaquer, infligez #b", " dégâts et mettez une copie de cette carte dans votre main."]
+  },
+  "servantreloaded:ProtectionPower": {
+  "NAME": "Protection",
+  "DESCRIPTIONS": ["La protection peut soutenir #b", " dégâts."]
+  },
+  "servantreloaded:FalseFlawlessFormPower": {
+  "NAME": "Fausse Forme Parfaite",
+  "DESCRIPTIONS": ["Vous n'êtes pas affecté par #yFaiblesse, #yVulnérabilité ou #yFragilité pendant #b", " tour."]
+  },
+  "servantreloaded:MatrixPower": {
+  "NAME": "Matrice",
+  "DESCRIPTIONS": ["Réduisez les prochains #b", " dégâts d' #yAttaque subis de #b25%."]
+  },
+  "servantreloaded:ElegancePower": {
+  "NAME": "Élégance",
+  "DESCRIPTIONS": ["Augmente #yl'armure et la #yProtection obtenus à partir des cartes de #b", " ."]
+  }
+  }

@@ -1,0 +1,27 @@
+{
+  "servantreloaded:ConfigMenu": {
+    "TEXT": [
+      "ServantReloaded",
+      "Wiwileborne,Original Authors(BlackRuse)",
+      "v1.0\n Adds The Servant as a playable third character",
+      "ServantReloaded does not have any settings (yet)!"
+    ]
+  },
+  "servantreloaded:CardVisionScreen": {
+    "TEXT": [
+      "Choisissez une carte",
+      "The enemy's intent will be?",
+      "Choose a Temporal card"
+    ]
+  },
+  "servantreloaded:HandCardSelectScreen": {
+    "TEXT": [
+      "Duplicate"
+    ]
+  },
+  "servantreloaded:TalkAction": {
+    "TEXT": [
+      "The time paradox is triggered..."
+    ]
+  }
+}

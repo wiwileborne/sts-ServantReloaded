@@ -1,0 +1,57 @@
+{
+  "servantreloaded:Uniform": {
+  "NAME": "Uniforme",
+  "FLAVOR": "Il aide à garder les saletés à distance ainsi qu'à transporter des armes.",
+  "DESCRIPTIONS": ["Au début de chaque combat, obtenez #b6 #yservantreloaded:Couteaux."]
+  },
+  "servantreloaded:Broom": {
+  "NAME": "Balai",
+  "FLAVOR": "Indispensable pour chaque femme de ménage.",
+  "DESCRIPTIONS": ["Toutes les #b10 cartes que vous défaussez manuellement, gagnez [B] ."]
+  },
+  "servantreloaded:KneeBrace": {
+  "NAME": "Genouillère",
+  "FLAVOR": "Très utile pour éviter la bursite.",
+  "DESCRIPTIONS": ["Gagnez #b3 #yBlock pour chaque effet #yservantreloaded:Changement que vous déclenchez."]
+  },
+  "servantreloaded:PocketWatch": {
+  "NAME": "Montre de poche",
+  "FLAVOR": "Soixante ans, une instantané.",
+  "DESCRIPTIONS": ["Chaque fois que vous #yÉpuisez une carte, piochez une carte."]
+  },
+  "servantreloaded:StoneMask": {
+  "NAME": "Masque de pierre",
+  "FLAVOR": "Vous ressentez une impulsion soudaine à rejeter votre humanité.",
+  "DESCRIPTIONS": ["Chaque fois que vous tuez un ennemi non-sbire, soignez-vous de #b2 PV et gagnez #b1 PV maximal permanent."]
+  },
+  "servantreloaded:MysterySword": {
+  "NAME": "Épée mystérieuse",
+  "FLAVOR": "Trouvée dans les profondeurs. Les utilisateurs doivent se sacrifier pour manier cette épée.",
+  "DESCRIPTIONS": ["Gagnez [B] au début de chaque tour. La première #yCompétence que vous jouez chaque tour a #yservantreloaded:Contrecoup."]
+  },
+  "servantreloaded:PaperSwan": {
+  "NAME": "Cygne en papier",
+  "FLAVOR": "Parfait et élégant.",
+  "DESCRIPTIONS": ["Chaque fois que vous appliquez #yservantreloaded:Corruption, vous avez #b50% de chance d'appliquer un #yFléau supplémentaire de #b1."]
+  },
+  "servantreloaded:SplendidAttire": {
+  "NAME": "Tenue somptueuse",
+  "FLAVOR": "Le danger se cache dans la beauté.",
+  "DESCRIPTIONS": ["Remplace #rUniforme. Au début de chaque combat, obtenez #b12 #yservantreloaded:Couteaux., gagnez #b1 #yservantreloaded:Élégance et #b3 #yservantreloaded:Satellites."]
+  },
+  "servantreloaded:OldScarf": {
+  "NAME": "Vieux foulard",
+  "FLAVOR": "On dit que c'est un héritage familial.",
+  "DESCRIPTIONS": ["Au début de chaque combat, améliorez toutes les cartes #yservantreloaded:Vision de votre deck pour le reste du combat."]
+  },
+  "servantreloaded:Pan": {
+  "NAME": "Poêle",
+  "FLAVOR": "Pourquoi vendent-ils ça ?",
+  "DESCRIPTIONS": ["Au début de chaque combat, infligez #b2 #yservantreloaded:Corruption à TOUS les ennemis."]
+  },
+  "servantreloaded:RomanBracelet": {
+  "NAME": "Bracelet romain",
+  "FLAVOR": "Seules quelques personnes peuvent libérer son véritable potentiel.",
+  "DESCRIPTIONS": ["Au début de chaque combat, placez #b2 #yEssence #yTemporelle dans votre pile de défausse."]
+  }
+  }

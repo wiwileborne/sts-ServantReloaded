@@ -1,0 +1,77 @@
+[
+  {
+    "PROPER_NAME": "Couteaux",
+    "NAMES": ["Couteaux", "couteaux", "Couteau", "couteau", "COUTEAUX", "COUTEAU"],
+    "DESCRIPTION": "Les armes les plus fidèles d'un Serviteur. Peuvent être lancées ou converties."
+  },
+  {
+    "PROPER_NAME": "Temporalité",
+    "NAMES": ["Temporalité", "temporalité"],
+    "DESCRIPTION": "#yÉthérée et #yÉpuisé."
+  },
+  {
+  "PROPER_NAME": "Temporelle",
+  "NAMES": ["Temporelle", "temporelle", "Temporelles", "temporelles","Temporelle(s)","temporelle(s)"],
+  "DESCRIPTION": "Les cartes temporelles coûtent 0 et ont #yÉthérée et #yÉpuisé."
+  },
+  {
+  "PROPER_NAME": "Épuisement",
+  "NAMES":  ["épuiser"],
+  "DESCRIPTION": "Écarté jusqu'à la fin du combat."
+  },
+  {
+  "PROPER_NAME": "Faiblesse",
+  "NAMES":  ["Faiblesses"],
+  "DESCRIPTION": "Les attaques d'une créature affaiblie inflige #b25 #b% de dégâts en moins."
+  },
+  {
+  "PROPER_NAME": "Vulnérabilité",
+  "NAMES":  ["Vulnérabilités"],
+  "DESCRIPTION": "Les créatures vulnérables subissent #b50 #b% de dégâts supplémentaires."
+  },
+  {
+    "PROPER_NAME": "Fragilité",
+    "NAMES":  ["Fragilités"],
+    "DESCRIPTION": "Les créatures fragilisées reçoivent #b25 #b% #yd'armure en moins."
+  },
+  {
+    "PROPER_NAME": "Corruption",
+    "NAMES": ["Corruption", "corruption", "corrompu", "Corrompu"],
+    "DESCRIPTION": "Les ennemis corrompus subiront des dégâts supplémentaires lorsqu'ils seront attaqués."
+  },
+  {
+    "PROPER_NAME": "Changement",
+    "NAMES": ["Changement", "changement"],
+    "DESCRIPTION": "Appliquez Changement en choisissant de défausser une carte."
+  },
+  {
+    "PROPER_NAME": "Vision",
+    "NAMES": ["Vision", "vision"],
+    "DESCRIPTION": "Prédit l'intention de l'ennemi pour le prochain tour. Si correct, déclenche le(s) effet(s) au début de votre prochain tour."
+  },
+  {
+    "PROPER_NAME": "Contrecoup",
+    "NAMES": ["Contrecoup", "contrecoup"],
+    "DESCRIPTION": "Vous applique #b1 #yFaiblesse, #yVulnérabilité ET #yFragilité"
+  },
+  {
+    "PROPER_NAME": "Protection",
+    "NAMES": ["Protection", "protection"],
+    "DESCRIPTION": "Chaque fois que vous perdez des PV, perdez de la #yProtection à la place. La #yProtection persiste entre les tours."
+  },
+  {
+    "PROPER_NAME": "Elegance",
+    "NAMES": ["Élégance", "élégance", "Elegance", "elegance"],
+    "DESCRIPTION": "Améliore #yl'armure et la #yProtection gagnés grâce aux cartes."
+  },
+  {
+    "PROPER_NAME": "Matrice",
+    "NAMES": ["Matrice", "matrice"],
+    "DESCRIPTION": "Réduit les dégâts d'Attaque subis de #b50%. Perdez #b1 Matrice chaque fois que vous êtes attaqué."
+  },
+  {
+    "PROPER_NAME": "Satellite",
+    "NAMES": ["Satellite", "satellite", "Satellites", "satellites"],
+    "DESCRIPTION": "Lorsque vous utilisez une Attaque, perdez #b1 #ySatellite et infligez #b4 dégâts. Lorsque vous êtes attaqué, perdez #b1 #ySatellite et infligez #b4 dégâts à l'attaquant. Considérés comme des #yCouteaux."
+  }
+]

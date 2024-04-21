@@ -1,0 +1,362 @@
+{
+ "servantreloaded:_DummyAttack": {
+  "NAME": "Attaque",
+  "DESCRIPTION": "Au prochain tour, l'ennemi a l'intention d'attaquer."
+ },
+ "servantreloaded:_DummyNotAttack": {
+  "NAME": "Pas d'attaque",
+  "DESCRIPTION": "Au prochain tour, l'ennemi n'a pas l'intention d'attaquer."
+ },
+ "servantreloaded:Strike": {
+  "NAME": "Frappe",
+  "DESCRIPTION": "Infligez !D! dégâts."
+ },
+ "servantreloaded:Defend": {
+  "NAME": "Défense",
+  "DESCRIPTION": "Gagnez !B! d'armure."
+ },
+ "servantreloaded:InstantArmor": {
+  "NAME": "Armure Instantanée",
+  "DESCRIPTION": "Inné. NL Gagnez !M! servantreloaded:Protection. NL Convertissez 3 servantreloaded:Couteaux en servantreloaded:Satellites. NL Épuisement."
+ },
+ "servantreloaded:Alleviate": {
+  "NAME": "Soulagement",
+  "DESCRIPTION": "Défaussez jusqu'à 3 cartes. NL Gagnez !B! d'armure pour chaque carte défaussée."
+ },
+ "servantreloaded:Barrier": {
+  "NAME": "Barrière",
+  "DESCRIPTION": "Gagnez !B! d'armure. NL Gagnez !M! servantreloaded:Protection."
+ },
+ "servantreloaded:PendulumOfEternity": {
+  "NAME": "Pendule de l'Éternité",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Appliquez !M! Vulnérabilité. NL et !M! Faiblesse. NL servantreloaded:Changement : Coûte 1 [B] de moins."
+ },
+ "servantreloaded:Orbit": {
+  "NAME": "Orbite",
+  "DESCRIPTION": "Convertissez !M! servantreloaded:Couteaux en servantreloaded:Satellites. NL Chaque servantreloaded:Satellite inflige !D! dégâts à tous les ennemis."
+ },
+ "servantreloaded:Comet": {
+  "NAME": "Comète",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Piochez !M! cartes. NL Piochez 1 carte de moins pour chaque carte jouée ce tour."
+ },
+ "servantreloaded:Dilation": {
+  "NAME": "Dilatation",
+  "DESCRIPTION": "Gagnez !M! servantreloaded:Protection. NL La protection de cette carte est augmentée de 1 ce combat."
+ },
+ "servantreloaded:Moondial": {
+  "NAME": "Fréquence Temporelle",
+  "DESCRIPTION": "Ajoutez !M! cartes servantreloaded:Temporelles aléatoires à votre main et à votre pioche. NL Épuisement."
+ },
+ "servantreloaded:Deny": {
+  "NAME": "Déni",
+  "DESCRIPTION": "Regardez votre pioche. NL Vous pouvez défausser jusqu'à !M! cartes. NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Regardez votre pioche. NL Vous pouvez défausser jusqu'à !M! cartes."
+ },
+ "servantreloaded:DoubleEdge": {
+  "NAME": "Double Tranchant",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Appliquez !M! Vulnérabilité. NL servantreloaded:Contrecoup."
+ },
+ "servantreloaded:DualDimension": {
+  "NAME": "Double Dimension",
+  "DESCRIPTION": "Doublez votre servantreloaded:Protection. NL servantreloaded:Changement : Gagnez !M! servantreloaded:Protection. NL Épuisement."
+ },
+ "servantreloaded:Duplication": {
+  "NAME": "Duplication",
+  "DESCRIPTION": "Dupliquez !M! carte(s). NL Les duplicatas NL coûtent 0 ce tour. NL servantreloaded:Contrecoup. NL Épuisement."
+ },
+ "servantreloaded:Embodiment": {
+  "NAME": "Incarnation",
+  "DESCRIPTION": "À la fin de votre tour, ajoutez une carte servantreloaded:Temporelle aléatoire à votre pioche.",
+  "UPGRADE_DESCRIPTION": "À la fin de votre tour, ajoutez une carte servantreloaded:Temporelle améliorée aléatoire à votre pioche."
+ },
+ "servantreloaded:Defy": {
+  "NAME": "Défier",
+  "DESCRIPTION": "Gagnez !B! d'armure. NL Vous n'êtes pas affecté par Faiblesse, Vulnérabilité ou Fragilité pendant 1 tour.",
+  "UPGRADE_DESCRIPTION": "Gagnez !B! d'armure. NL Vous n'êtes pas affecté par Faiblesse, Vulnérabilité ou Fragilité pendant 1 tour. NL Retenue."
+ },
+ "servantreloaded:FanOfKnives": {
+  "NAME": "Éventail de Couteaux",
+  "DESCRIPTION": "Lancez 1 servantreloaded:Couteau sur chaque ennemi X fois. NL Chacun inflige !D! dégâts."
+ },
+ "servantreloaded:GearUp": {
+  "NAME": "Équipement",
+  "DESCRIPTION": "Gagnez !M! servantreloaded:Protection. NL Obtenez 3 servantreloaded:Couteaux."
+ },
+ "servantreloaded:FastForward": {
+  "NAME": "Avance Rapide",
+  "DESCRIPTION": "Gagnez !B! d'armure. NL S'il n'y a pas de cartes d'attaque dans votre main, piochez !M! cartes."
+ },
+ "servantreloaded:Ricochet": {
+  "NAME": "Ricochet",
+  "DESCRIPTION": "Lancez 1 servantreloaded:Couteau. NL Chacun inflige !D! dégâts et rebondit entre les ennemis !M! fois."
+ },
+ "servantreloaded:FlawlessForm": {
+  "NAME": "Forme Parfaite",
+  "DESCRIPTION": "Gagnez !M! servantreloaded:Protection. NL Vous n'êtes pas affecté par Faiblesse, Vulnérabilité ou Fragilité.",
+  "UPGRADE_DESCRIPTION": "Gagnez !M! servantreloaded:Protection. NL Vous n'êtes pas affecté par Faiblesse, Vulnérabilité ou Fragilité. NL Retenue."
+ },
+ "servantreloaded:FloweringNight": {
+  "NAME": "Nuit Florissante",
+  "DESCRIPTION": "À chaque fois que vous jouez une carte, piochez une carte. NL Vous ne pouvez piocher NL que !M! cartes de cette façon chaque tour."
+ },
+ "servantreloaded:Initiator": {
+  "NAME": "Initiateur",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Suivi NL à votre main.",
+  "UPGRADE_DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Suivi+ NL à votre main."
+ },
+ "servantreloaded:FollowUp": {
+  "NAME": "Suivi",
+  "DESCRIPTION": "Éthérée. NL Infligez !D! dégâts. NL Ajoutez Suivi 2 NL à votre main. NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Éthérée. NL Infligez !D! dégâts. NL Ajoutez Suivi 2+ NL à votre main. NL Épuisement."
+ },
+ "servantreloaded:FollowUp2": {
+  "NAME": "Suivi 2",
+  "DESCRIPTION": "Éthérée. NL Infligez !D! dégâts. NL Ajoutez Touche Finale NL à votre main. NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Éthérée. NL Infligez !D! dégâts. NL Ajoutez Touche Finale+ NL à votre main. NL Épuisement."
+ },
+ "servantreloaded:FinishingTouch": {
+  "NAME": "Touche Finale",
+  "DESCRIPTION": "Éthérée. NL Infligez !D! dégâts. NL Gagnez 1 servantreloaded:Élégance. NL Épuisement."
+ },
+ "servantreloaded:Hightail": {
+  "NAME": "Fuite rapide",
+  "DESCRIPTION": "Gagnez !M! servantreloaded:Protection NL X fois. NL servantreloaded:Contrecoup."
+ },
+ "servantreloaded:Advance": {
+  "NAME": "Avancée",
+  "DESCRIPTION": "Mettez !M! cartes Coût 0 de votre pioche dans votre main.",
+  "UPGRADE_DESCRIPTION": "Inné. NL Mettez !M! cartes Coût 0 de votre pioche dans votre main."
+ },
+ "servantreloaded:ForgedInTime": {
+  "NAME": "Forgé dans le temps",
+  "DESCRIPTION": "Épuisez votre main. NL Gagnez !M! servantreloaded:Protection et 2 servantreloaded:Couteaux pour chaque carte épuisée. NL Épuisement."
+ },
+ "servantreloaded:Gouge": {
+  "NAME": "Entaille",
+  "DESCRIPTION": "Infligez !D! dégâts et appliquez 1 servantreloaded:Corruption X fois. NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Infligez !D! dégâts et appliquez 1 servantreloaded:Corruption X+1 fois. NL Épuisement."
+ },
+ "servantreloaded:BestPractice": {
+  "NAME": "Meilleure Pratique",
+  "DESCRIPTION": "Au début de votre tour, vous pouvez améliorer 1 carte dans votre main pour le reste du combat."
+ },
+ "servantreloaded:Exchange": {
+  "NAME": "Échange",
+  "DESCRIPTION": "Défaussez !M! cartes. NL Obtenez !M! servantreloaded:Couteaux.",
+  "UPGRADE_DESCRIPTION": "Défaussez !M! cartes. NL Obtenez !M! servantreloaded:Couteaux. NL Retenue."
+ },
+ "servantreloaded:Luminosity": {
+  "NAME": "Luminosité",
+  "DESCRIPTION": "Gagnez 1 Force. NL Gagnez !M! servantreloaded:Élégance."
+ },
+ "servantreloaded:KidneyShot": {
+  "NAME": "Lame Furtive",
+  "DESCRIPTION": "Lancez !M! servantreloaded:Couteaux. NL Chacun inflige !D! dégâts et applique 1 Faiblesse."
+ },
+ "servantreloaded:WasteNot": {
+  "NAME": "Ne rien gaspiller",
+  "DESCRIPTION": "À la fin de votre tour, dépensez tout [B]. NL Piochez 1 carte de plus au prochain tour pour chaque [B] dépensé."
+ },
+ "servantreloaded:KillingDoll": {
+  "NAME": "Poupée Meurtrière",
+  "DESCRIPTION": "Lancez TOUS les servantreloaded:Couteaux. NL Chacun inflige !D! dégâts à un ennemi aléatoire. NL Épuisement. "
+ },
+ "servantreloaded:Collapse": {
+  "NAME": "Effondrement",
+  "DESCRIPTION": "Infligez des dégâts égaux à votre servantreloaded:Protection actuelle à TOUS les ennemis.",
+  "EXTENDED_DESCRIPTION": [" NL (Infligez !D! dégâts.)"]
+ },
+ "servantreloaded:Manipulate": {
+  "NAME": "Manipulation",
+  "DESCRIPTION": "Ajoutez X+1 cartes servantreloaded:Temporelles aléatoires à votre pioche.",
+  "UPGRADE_DESCRIPTION": "Ajoutez X+2 cartes servantreloaded:Temporelles aléatoires à votre pioche."
+ },
+ "servantreloaded:Misdirection": {
+  "NAME": "Tromperie",
+  "DESCRIPTION": "Gagnez !B! d'armure. NL Appliquez !M! servantreloaded:Corruption et Faiblesse."
+ },
+ "servantreloaded:MoonPhase": {
+  "NAME": "Phase Lunaire",
+  "DESCRIPTION": "À la fin de votre tour, gagnez !M! d'armure pour chaque pile de Faiblesse, Vulnérabilité et Fragilité sur vous."
+ },
+ "servantreloaded:Moonlight": {
+  "NAME": "Clair de Lune",
+  "DESCRIPTION": "Lancez !M! servantreloaded:Couteaux. NL Chacun inflige !D! dégâts et applique 1 Vulnérabilité."
+ },
+ "servantreloaded:BottledTime": {
+  "NAME": "Temps En Bouteille",
+  "DESCRIPTION": "Piochez !M! cartes. NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Inné. NL Piochez !M! cartes. NL Épuisement."
+ },
+ "servantreloaded:MurderousAura": {
+  "NAME": "Aura Meurtrière",
+  "DESCRIPTION": "Au début de votre tour, appliquez 1 servantreloaded:Corruption à TOUS les ennemis.",
+  "UPGRADE_DESCRIPTION": "Inné. NL Au début de votre tour, appliquez 1 servantreloaded:Corruption à TOUS les ennemis."
+ },
+ "servantreloaded:Read": {
+  "NAME": "Lire",
+  "DESCRIPTION": "servantreloaded:Vision : Gagnez !B! servantreloaded:Protection et appliquez !M! Faiblesse."
+ },
+ "servantreloaded:DancingSilver": {
+  "NAME": "Danse d'Argent",
+  "DESCRIPTION": "Convertissez !M! servantreloaded:Couteaux en servantreloaded:Satellites. NL Gagnez 2 d'armure pour chaque servantreloaded:Satellite que vous avez."
+ },
+ "servantreloaded:Potential": {
+  "NAME": "Potentiel",
+  "DESCRIPTION": "Infligez !D! dégâts. NL servantreloaded:Changement : Augmentez les dégâts de cette carte de !M! ce combat et mettez cette carte dans NL votre main."
+ },
+ "servantreloaded:Desolation": {
+  "NAME": "Désolation",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Doublez la NL servantreloaded:Corruption de l'ennemi. NL Épuisement."
+ },
+ "servantreloaded:Deadline": {
+  "NAME": "Date Limite",
+  "DESCRIPTION": "servantreloaded:Vision : Appliquez !M! servantreloaded:Corruption et Vulnérabilité. NL Épuisement."
+ },
+ "servantreloaded:RealityMarble": {
+  "NAME": "Marbre de Réalité",
+  "DESCRIPTION": "Inné. NL À la fin de votre tour, conservez jusqu'à !M! cartes. NL Les cartes conservez perdent Éthérée pour ce combat."
+ },
+ "servantreloaded:Rearm": {
+  "NAME": "Rearmement",
+  "DESCRIPTION": "Piochez !M! cartes. NL Obtenez 5 servantreloaded:Couteaux."
+ },
+ "servantreloaded:Replace": {
+  "NAME": "Remplacement",
+  "DESCRIPTION": "Défaussez une carte de votre pioche. NL Placez une carte de votre pile de défausse en haut de votre pioche."
+ },
+ "servantreloaded:Reset": {
+  "NAME": "Réinitialisation",
+  "DESCRIPTION": "Effacez TOUTES les servantreloaded:Faiblesses, servantreloaded:Vulnérabilités et servantreloaded:Fragilités. NL Chaque pile vous donne !M! servantreloaded:Protection. NL Épuisement."
+ },
+ "servantreloaded:ReturningBlade": {
+  "NAME": "Lame Retour",
+  "DESCRIPTION": "servantreloaded:Vision : Infligez !D! dégâts à TOUS les ennemis et mettez cette carte NL dans votre main. NL Peut être améliorée un nombre quelconque de fois."
+ },
+ "servantreloaded:Shuttle": {
+  "NAME": "Navette",
+  "DESCRIPTION": "Déclenchez les effets de carte et de relique prévus pour le début de votre prochain tour. NL Épuisement."
+ },
+ "servantreloaded:Rewind": {
+  "NAME": "Rembobinage",
+  "DESCRIPTION": "Gagnez !B! d'armure. NL Récupérez la dernière carte NL placée en défausse NL dans votre main."
+ },
+
+ "servantreloaded:Sabotage": {
+  "NAME": "Sabotage",
+  "DESCRIPTION": "Infligez !D! dégâts. NL L'ennemi perd de la Force égale aux dégâts pendant 1 tour. NL Épuisement."
+ },
+ "servantreloaded:ShiftingGears": {
+  "NAME": "Changement de Vitesse",
+  "DESCRIPTION": "Piochez !M! cartes. NL servantreloaded:Changement : Gagnez 1 servantreloaded:Élégance."
+ },
+ "servantreloaded:ShatteredReality": {
+  "NAME": "Réalité Brisée",
+  "DESCRIPTION": "Infligez !D! dégâts. NL servantreloaded:Changement : Infligez le double de dégâts à TOUS les ennemis."
+ },
+ "servantreloaded:SilverMatrix": {
+  "NAME": "Matrice d'Argent",
+  "DESCRIPTION": "Convertissez !M! servantreloaded:Couteaux en servantreloaded:Satellites. NL Gagnez 1 servantreloaded:Matrice pour chaque servantreloaded:Satellite que vous avez."
+ },
+ "servantreloaded:SilverBlades": {
+  "NAME": "Lames d'Argent",
+  "DESCRIPTION": "Les servantreloaded:Couteaux infligent !M! dégâts supplémentaires. NL Au début NL de votre tour, NL obtenez !M! servantreloaded:Couteaux."
+ },
+ "servantreloaded:Snipe": {
+  "NAME": "Sniper",
+  "DESCRIPTION": "servantreloaded:Vision : Lancez 1 servantreloaded:Couteau. NL Chacun inflige !D! dégâts et applique !M! Vulnérabilité."
+ },
+ "servantreloaded:Solidify": {
+  "NAME": "Solidifier",
+  "DESCRIPTION": "Choisissez 1 carte servantreloaded:Temporelle et placez-la en haut de votre pioche. NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Choisissez 1 carte servantreloaded:Temporelle deux fois et placez-la en haut de votre pioche. NL Épuisement."
+ },
+ "servantreloaded:SoulSculpture": {
+  "NAME": "Sculpture de l'Âme",
+  "DESCRIPTION": "Infligez !D! dégâts NL 6 fois. NL L'ennemi perd NL !M! Force. NL Épuisement."
+ },
+ "servantreloaded:SpecialFormula": {
+  "NAME": "Formule Spéciale",
+  "DESCRIPTION": "Gagnez [B]. NL Récupérez !M! PV. NL servantreloaded:Contrecoup. NL Épuisement."
+ },
+ "servantreloaded:Spin": {
+  "NAME": "Faisceau Rotatif",
+  "DESCRIPTION": "Infligez !D! dégâts et appliquez !M! Faiblesse à TOUS les ennemis. NL servantreloaded:Contrecoup."
+ },
+ "servantreloaded:StarChef": {
+  "NAME": "Chef Étoilé",
+  "DESCRIPTION": "Éthérée. NL Au début de votre tour, vous pouvez servantreloaded:épuiser 1 carte et gagner [B].",
+  "UPGRADE_DESCRIPTION": "Au début de votre tour, vous pouvez servantreloaded:épuiser 1 carte et gagner [B]."
+ },
+ "servantreloaded:Starlight": {
+  "NAME": "Éclat Stellaire",
+  "DESCRIPTION": "Lancez !M! servantreloaded:Couteaux. NL Chacun inflige !D! dégâts à un ennemi aléatoire et pioche 1 carte."
+ },
+ "servantreloaded:Foresight": {
+  "NAME": "Prémonition",
+  "DESCRIPTION": "Au début de votre tour NL Scrutez !M! cartes."
+ },
+ "servantreloaded:Sunlight": {
+  "NAME": "Rayon Solaire",
+  "DESCRIPTION": "Lancez 1 servantreloaded:Couteau. NL Chacun inflige !D! dégâts NL et applique !M! servantreloaded:Corruption NL à TOUS les ennemis."
+ },
+ "servantreloaded:SurpressingFire": {
+  "NAME": "Feu de Suppression",
+  "DESCRIPTION": "Chaque fois que vous lancez ou convertissez un servantreloaded:Couteau, gagnez !M! d'armure."
+ },
+ "servantreloaded:TimeTheft": {
+  "NAME": "Vol de Temps",
+  "DESCRIPTION": "servantreloaded:Vision : Gagnez [B][B]. NL Piochez !M! cartes."
+ },
+ "servantreloaded:TemporalDefense": {
+  "NAME": "Bouclier Temporelle",
+  "DESCRIPTION": "servantreloaded:Temporalité. NL Gagnez !B! d'armure. NL Gagnez !M! servantreloaded:Protection."
+ },
+ "servantreloaded:TemporalEssence": {
+  "NAME": "Essence Temporelle",
+  "DESCRIPTION": "servantreloaded:Temporalité. NL Gagnez [B]. NL Piochez !M! cartes.",
+  "UPGRADE_DESCRIPTION": "servantreloaded:Temporalité. NL Gagnez [B][B]. NL Piochez !M! cartes."
+ },
+ "servantreloaded:TemporalMisd": {
+  "NAME": "Distorsion Temporelle",
+  "DESCRIPTION": "servantreloaded:Temporalité. NL Appliquez !M! servantreloaded:Corruption et Faiblesse à TOUS les ennemis."
+ },
+ "servantreloaded:TemporalSlicing": {
+  "NAME": "Assaut Temporelle",
+  "DESCRIPTION": "servantreloaded:Temporalité. NL Infligez !D! dégâts !M! fois à TOUS les ennemis."
+ },
+ "servantreloaded:TheWorld": {
+  "NAME": "Le Monde",
+  "DESCRIPTION": "Piochez !M! cartes. NL La prochaine carte que vous jouez ce tour coûte 0. NL Épuisement."
+ },
+ "servantreloaded:Contraction": {
+  "NAME": "Contraction",
+  "DESCRIPTION": "Gagnez !M! servantreloaded:Protection. NL Convertissez toutes votre armure en servantreloaded:Protection."
+ },
+ "servantreloaded:TimeWarp": {
+  "NAME": "Fracture Temporelle",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Défaussez !M! carte(s). NL servantreloaded:Changement : Piochez 1 carte."
+ },
+ "servantreloaded:Revamp": {
+  "NAME": "Rénovation",
+  "DESCRIPTION": "Prenez !M! carte(s) de votre pile de défausse dans votre main et améliorez-la(s). NL Épuisement.",
+  "UPGRADE_DESCRIPTION": "Prenez !M! carte(s) de votre pile de défausse dans votre main et améliorez-la(s)."
+ },
+ "servantreloaded:TrueSight": {
+  "NAME": "Vraie Vue",
+  "DESCRIPTION": "Les effets de servantreloaded:Vision seront toujours déclenchés.",
+  "UPGRADE_DESCRIPTION": "Les effets de servantreloaded:Vision seront toujours déclenchés. NL Rétention."
+ },
+ "servantreloaded:Unruled": {
+  "NAME": "Non-Règle",
+  "DESCRIPTION": "Infligez !D! dégâts. NL Pour chaque pile de Faiblesse, Vulnérabilité et Fragilité sur vous, infligez !M! dégâts supplémentaires."
+ },
+ "servantreloaded:LightFlow": {
+  "NAME": "Flux de Lumière",
+  "DESCRIPTION": "Infligez !D! dégâts NL 3 fois. NL servantreloaded:Contrecoup."
+ },
+ "servantreloaded:testCard": {
+  "NAME": "Easy Modal Choice",
+  "DESCRIPTION": "Vision : Bahh Rien juste texte dans la console quoi :p"
+ }
+}

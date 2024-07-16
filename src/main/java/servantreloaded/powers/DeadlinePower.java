@@ -5,9 +5,8 @@
  import com.megacrit.cardcrawl.monsters.AbstractMonster;
  import com.megacrit.cardcrawl.powers.VulnerablePower;
 
- import static servantreloaded.util.Wiz.applyToSelf;
- import static servantreloaded.util.Wiz.atb;
  import static servantreloaded.ServantReloadedMod.makeID;
+ import static servantreloaded.util.Wiz.*;
  import static servantreloaded.util.powerHelper.*;
 
  public class DeadlinePower extends AbstractEasyPower {
@@ -27,8 +26,9 @@
      public void atStartOfTurnPostDraw() {
          if (owner.hasPower(TrueSightPower.ID) || isValidTargetAndIntent(target,prediction)) {
              flash();
-             applyToSelf(new AmplifyDamagePower(target, amount));
-             applyToSelf(new VulnerablePower(target, amount, false));
+             applyToEnemy(target,new AmplifyDamagePower(target, amount));
+             applyToEnemy(target,new VulnerablePower(target, amount, false));
+
          }
 
          atb(new ReducePowerAction(owner, owner, this, 999));

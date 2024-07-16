@@ -32,7 +32,7 @@
   "servantreloaded:PaperSwan": {
   "NAME": "Cygne en papier",
   "FLAVOR": "Parfait et élégant.",
-  "DESCRIPTIONS": ["Chaque fois que vous appliquez #yservantreloaded:Corruption, vous avez #b50% de chance d'appliquer un #yFléau supplémentaire de #b1."]
+  "DESCRIPTIONS": ["Chaque fois que vous appliquez #yservantreloaded:Corruption, vous avez #b50% de chance d'appliquer une #yCorruption supplémentaire."]
   },
   "servantreloaded:SplendidAttire": {
   "NAME": "Tenue somptueuse",
@@ -52,6 +52,6 @@
   "servantreloaded:RomanBracelet": {
   "NAME": "Bracelet romain",
   "FLAVOR": "Seules quelques personnes peuvent libérer son véritable potentiel.",
-  "DESCRIPTIONS": ["Au début de chaque combat, placez #b2 #yEssence #yTemporelle dans votre pile de défausse."]
+  "DESCRIPTIONS": ["Au début de chaque combat, placez #b2 #yEssences #yTemporelle dans votre pile de défausse."]
   }
   }

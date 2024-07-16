@@ -183,7 +183,7 @@
   "NAME": "Clair de Lune",
   "DESCRIPTION": "Lancez !M! servantreloaded:Couteaux. NL Chacun inflige !D! dégâts et applique 1 Vulnérabilité."
  },
- "servantreloaded:BottledTime": {
+ "servantreloaded:CannedTime": {
   "NAME": "Temps En Bouteille",
   "DESCRIPTION": "Piochez !M! cartes. NL Épuisement.",
   "UPGRADE_DESCRIPTION": "Inné. NL Piochez !M! cartes. NL Épuisement."
@@ -231,7 +231,7 @@
  },
  "servantreloaded:ReturningBlade": {
   "NAME": "Lame Retour",
-  "DESCRIPTION": "servantreloaded:Vision : Infligez !D! dégâts à TOUS les ennemis et mettez cette carte NL dans votre main. NL Peut être améliorée un nombre quelconque de fois."
+  "DESCRIPTION": "servantreloaded:Vision : Infligez !D! dégâts à TOUS les ennemis et mettez cette carte NL dans votre main. NL Améliorable à l'infini."
  },
  "servantreloaded:Shuttle": {
   "NAME": "Navette",
@@ -337,8 +337,8 @@
   "NAME": "Fracture Temporelle",
   "DESCRIPTION": "Infligez !D! dégâts. NL Défaussez !M! carte(s). NL servantreloaded:Changement : Piochez 1 carte."
  },
- "servantreloaded:Revamp": {
-  "NAME": "Rénovation",
+ "servantreloaded:TrashToTreasure": {
+  "NAME": "Poubelles de trésors",
   "DESCRIPTION": "Prenez !M! carte(s) de votre pile de défausse dans votre main et améliorez-la(s). NL Épuisement.",
   "UPGRADE_DESCRIPTION": "Prenez !M! carte(s) de votre pile de défausse dans votre main et améliorez-la(s)."
  },

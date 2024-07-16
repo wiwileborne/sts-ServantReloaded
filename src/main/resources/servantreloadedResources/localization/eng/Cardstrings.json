@@ -1,386 +1,357 @@
 {
-  "servantreloaded:_DummyAttack": {
-  	"NAME": "Attaque",
-  	"DESCRIPTION": "Le tour suivant, l'ennemi a l'intention d'attaquer."
-  },
-  "servantreloaded:_DummyNotAttack": {
-  	"NAME": "Pas d'attaque",
-  	"DESCRIPTION": "Le tour suivant, l'ennemi n'a pas l'intention d'attaquer."
-  },
-  "servantreloaded:Strike": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage."
-  },
-  "servantreloaded:Defend": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
-  },
-
+ "servantreloaded:_DummyAttack": {
+  "NAME": "Attack",
+  "DESCRIPTION": "Next turn, the enemy intends to attack."
+ },
+ "servantreloaded:_DummyNotAttack": {
+  "NAME": "Not Attack",
+  "DESCRIPTION": "Next turn, the enemy does not intend to attack."
+ },
+ "servantreloaded:Strike": {
+  "NAME": "Strike",
+  "DESCRIPTION": "Deal !D! damage."
+ },
+ "servantreloaded:Defend": {
+  "NAME": "Defend",
+  "DESCRIPTION": "Gain !B! Block."
+ },
  "servantreloaded:InstantArmor": {
-  "NAME": "Armure instantanée",
-  "DESCRIPTION": "Inné. NL Gagnez !M! Protection. NL Convertissez 3 Knives en Satellites. NL Exhaust."
-  },
-  "servantreloaded:Alleviate": {
-  "NAME": "Soulager",
-  "DESCRIPTION": "Défaussez jusqu'à 3 cartes. NL Gagnez !B! Block pour chaque carte défaussée."
-  },
-  "servantreloaded:Barrier": {
-  "NAME": "Barrière",
-  "DESCRIPTION": "Gagnez !B! Block. NL Gagnez !M! Protection."
-  },
-  "servantreloaded:PendulumOfEternity": {
-  "NAME": "Pendule de l'éternité",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Appliquez !M! Vulnerable. NL Appliquez !M! Weak. NL Shift : coute 1 de moins [B] ."
-  },
-  "servantreloaded:Orbit": {
-  "NAME": "Orbite",
-  "DESCRIPTION": "Convertissez !M! Knives en Satellites. NL Infligez !D! dégâts à TOUS les ennemis pour chaque Satellite que vous possédez."
-  },
-  "servantreloaded:Comet": {
-  "NAME": "Comète",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Piochez !M! cartes. NL Piochez 1 carte de moins pour chaque carte jouée ce tour."
-  },
-  "servantreloaded:Dilation": {
-  "NAME": "Dilatation",
-  "DESCRIPTION": "Gagnez !M! Protection. NL La Protection de cette carte est augmentée de 1 ce combat."
-  },
-  "servantreloaded:Moondial": {
-  "NAME": "Cadran lunaire",
-  "DESCRIPTION": "Ajoutez !M! cartes Temporelles aléatoires à votre main et à votre pile de pioche. NL Exhaust."
-  },
-  "servantreloaded:Deny": {
-  "NAME": "Refus",
-  "DESCRIPTION": "Regardez votre pile de pioche. NL Vous pouvez défausser jusqu'à !M! cartes. NL Exhaust.",
-  "UPGRADE_DESCRIPTION": "Regardez votre pile de pioche. NL Vous pouvez défausser jusqu'à !M! cartes."
-  },
-  "servantreloaded:DoubleEdge": {
-  "NAME": "Double tranchant",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Appliquez !M! Vulnerable. NL Backlash."
-  },
-  "servantreloaded:DualDimension": {
-  "NAME": "Double dimension",
-  "DESCRIPTION": "Doublez votre Protection. NL Exhaust. NL Shift : Gagnez !M! Protection."
-  },
-  "servantreloaded:Duplication": {
+  "NAME": "Instant Armor",
+  "DESCRIPTION": "Innate. NL Gain !M! servantreloaded:Protection. NL Convert 3 servantreloaded:Knives to servantreloaded:Satellites. NL Exhaust."
+ },
+ "servantreloaded:Alleviate": {
+  "NAME": "Alleviate",
+  "DESCRIPTION": "Discard up to 3 cards. NL Gain !B! Block for each card you discard."
+ },
+ "servantreloaded:Barrier": {
+  "NAME": "Barrier",
+  "DESCRIPTION": "Gain !B! Block. NL Gain !M! servantreloaded:Protection."
+ },
+ "servantreloaded:PendulumOfEternity": {
+  "NAME": "Pendulum of Eternity",
+  "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Apply !M! Weak. NL servantreloaded:Shift: Costs 1 less [B] ."
+ },
+ "servantreloaded:Orbit": {
+  "NAME": "Orbit",
+  "DESCRIPTION": "Convert !M! servantreloaded:Knives to servantreloaded:Satellites. NL Deal !D! damage to ALL enemies for each servantreloaded:Satellite you have."
+ },
+ "servantreloaded:Comet": {
+  "NAME": "Comet",
+  "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Draw 1 less card for each card you have played this turn."
+ },
+ "servantreloaded:Dilation": {
+  "NAME": "Dilation",
+  "DESCRIPTION": "Gain !M! servantreloaded:Protection. NL This card's servantreloaded:Protection is increased by 1 this combat."
+ },
+ "servantreloaded:Moondial": {
+  "NAME": "Moondial",
+  "DESCRIPTION": "Add !M! random servantreloaded:Temporal cards to your hand and your draw pile. "
+ },
+ "servantreloaded:Deny": {
+  "NAME": "Deny",
+  "DESCRIPTION": "Look at your NL draw pile. NL You may discard NL up to !M! cards."
+ },
+ "servantreloaded:DoubleEdge": {
+  "NAME": "Double Edge",
+  "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL servantreloaded:Backlash."
+ },
+ "servantreloaded:DualDimension": {
+  "NAME": "Dual Dimension",
+  "DESCRIPTION": "Double your servantreloaded:Protection. NL Exhaust. NL servantreloaded:Shift: Gain !M! servantreloaded:Protection."
+ },
+ "servantreloaded:Duplication": {
   "NAME": "Duplication",
-  "DESCRIPTION": "Dupliquez !M! carte(s). NL Les duplicatas NL coûtent 0 ce tour. NL Backlash. NL Exhaust."
-  },
-  "servantreloaded:Embodiment": {
-  "NAME": "Incarnation",
-  "DESCRIPTION": "À la fin de votre tour, ajoutez une carte Temporelle aléatoire à votre pile de pioche.",
-  "UPGRADE_DESCRIPTION": "À la fin de votre tour, ajoutez une carte Temporelle améliorée aléatoire à votre pile de pioche."
-  },
-  "servantreloaded:Defy": {
-  "NAME": "Défiance",
-  "DESCRIPTION": "Gagnez !B! Block. NL Vous n'êtes pas affecté par Weak, Vulnerable ou Frail pendant 1 tour.",
-  "UPGRADE_DESCRIPTION": "Gagnez !B! Block. NL Vous n'êtes pas affecté par Weak, Vulnerable ou Frail pendant 1 tour. NL Retain."
-  },
-  "servantreloaded:FanOfKnives": {
-  "NAME": "Eventail de Knives",
-  "DESCRIPTION": "Lancez 1 Knive sur chaque ennemi X fois. NL Chacun inflige !D! dégâts."
-  },
-  "servantreloaded:GearUp": {
-  "NAME": "Équipement",
-  "DESCRIPTION": "Gagnez !M! Protection. NL Obtenez 3 Knives."
-  },
-  "servantreloaded:FastForward": {
-  "NAME": "Avance rapide",
-  "DESCRIPTION": "Gagnez !B! Block. NL S'il n'y a pas de cartes d'attaque dans votre main, piochez !M! cartes."
-  },
-  "servantreloaded:Ricochet": {
+  "DESCRIPTION": "Duplicate !M! card(s). NL The duplicates NL cost 0 this turn. NL servantreloaded:Backlash. NL Exhaust."
+ },
+ "servantreloaded:Embodiment": {
+  "NAME": "Embodiment",
+  "DESCRIPTION": "At the end your turn, add a random servantreloaded:Temporal card to your draw pile.",
+  "UPGRADE_DESCRIPTION": "At the end your turn, add a random Upgraded servantreloaded:Temporal card to your draw pile."
+ },
+ "servantreloaded:Defy": {
+  "NAME": "Defy",
+  "DESCRIPTION": "Gain !B! Block. NL You are not affected by Weak, Vulnerable and Frail for 1 turn.",
+  "UPGRADE_DESCRIPTION": "Gain !B! Block. NL You are not affected by Weak, Vulnerable and Frail for 1 turn. NL Retain."
+ },
+ "servantreloaded:FanOfKnives": {
+  "NAME": "Fan of Knives",
+  "DESCRIPTION": "Throw 1 servantreloaded:Knife at each enemy X times. NL Each deals !D! damage."
+ },
+ "servantreloaded:GearUp": {
+  "NAME": "Gear Up",
+  "DESCRIPTION": "Gain !M! servantreloaded:Protection. NL Obtain 4 servantreloaded:Knives. NL Convert 1 servantreloaded:Knife to servantreloaded:Satellite."
+ },
+ "servantreloaded:FastForward": {
+  "NAME": "Fast Forward",
+  "DESCRIPTION": "Gain !B! Block. NL If there is no Attack in your hand, draw !M! cards."
+ },
+ "servantreloaded:Ricochet": {
   "NAME": "Ricochet",
-  "DESCRIPTION": "Lancez 1 Knive. NL Chacun inflige !D! dégâts et rebondit entre les ennemis !M! fois."
-  },
-  "servantreloaded:FlawlessForm": {
-  "NAME": "Forme impeccable",
-  "DESCRIPTION": "Gagnez !M! Protection. NL Vous n'êtes pas affecté par Weak, Vulnerable ou Frail.",
-  "UPGRADE_DESCRIPTION": "Gagnez !M! Protection. NL Vous n'êtes pas affecté par Weak, Vulnerable ou Frail. NL Retain."
-  },
-  "servantreloaded:FloweringNight": {
-  "NAME": "Nuit florissante",
-  "DESCRIPTION": "À chaque fois que vous jouez une carte, piochez une carte. NL Vous ne pouvez piocher NL que !M! cartes de cette manière chaque tour."
-  },
-  "servantreloaded:Initiator": {
-  "NAME": "Initiateur",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Suite NL à votre main.",
-  "UPGRADE_DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Suite+ NL à votre main."
-  },
-  "servantreloaded:FollowUp": {
-  "NAME": "Suite",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Suite 2 NL à votre main. NL Exhaust. NL Ethereal.",
-  "UPGRADE_DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Suite 2+ NL à votre main. NL Exhaust. NL Ethereal."
-  },
-  "servantreloaded:FollowUp2": {
-  "NAME": "Suite 2",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Touche finale NL à votre main. NL Exhaust. NL Ethereal.",
-  "UPGRADE_DESCRIPTION": "Infligez !D! dégâts. NL Ajoutez Touche finale+ NL à votre main. NL Exhaust. NL Ethereal."
-  },
-  "servantreloaded:FinishingTouch": {
-  "NAME": "Touche finale",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Gagnez 1 Élégance. NL Exhaust. NL Ethereal."
-  },
-  "servantreloaded:Hightail": {
-  "NAME": "Fuir",
-  "DESCRIPTION": "Gagnez !M! Protection NL X fois. NL Backlash."
-  },
-  "servantreloaded:Advance": {
-  "NAME": "Avancer",
-  "DESCRIPTION": "Mettez !M! cartes Coût 0 de votre pile de pioche dans votre main.",
-  "UPGRADE_DESCRIPTION": "Inné. NL Mettez !M! cartes Coût 0 de votre pile de pioche dans votre main."
-  },
-  "servantreloaded:ForgedInTime": {
-  "NAME": "Forgé dans le temps",
-  "DESCRIPTION": "Épuisez votre main. NL Gagnez !M! Protection et 2 Knives pour chaque carte Exhauste. NL Exhaust."
-  },
-  "servantreloaded:Gouge": {
-  "NAME": "Entaille",
-  "DESCRIPTION": "Infligez !D! dégâts et appliquez 1 Plaie X fois. NL Exhaust.",
-  "UPGRADE_DESCRIPTION": "Infligez !D! dégâts et appliquez 1 Plaie X+1 fois. NL Exhaust."
-  },
-  "servantreloaded:BestPractice": {
-  "NAME": "Meilleure pratique",
-  "DESCRIPTION": "Au début de votre tour, vous pouvez améliorer 1 carte dans votre main pour le reste du combat."
-  },
-  "servantreloaded:Exchange": {
-  "NAME": "Échange",
-  "DESCRIPTION": "Défaussez !M! cartes. NL Obtenez !M! Knives.",
-  "UPGRADE_DESCRIPTION": "Défaussez !M! cartes. NL Obtenez !M! Knives. NL Retain."
-  },
-  "servantreloaded:Luminosity": {
-  "NAME": "Luminosité",
-  "DESCRIPTION": "Gagnez 1 Force. NL Gagnez !M! Élégance."
-  },
-  "servantreloaded:KidneyShot": {
-  "NAME": "Coup au rein",
-  "DESCRIPTION": "Lancez !M! Knives. NL Chacun inflige !D! dégâts et applique 1 Weak."
-  },
-  "servantreloaded:WasteNot": {
-  "NAME": "Ne pas gaspiller",
-  "DESCRIPTION": "À la fin de votre tour, dépensez tout [B] . NL Piochez 1 carte de plus le tour suivant pour chaque [B] dépensé."
-  },
-  "servantreloaded:KillingDoll": {
-  "NAME": "Poupée meurtrière",
-  "DESCRIPTION": "Lancez TOUS les Knives. NL Chacun inflige !D! dégâts à un ennemi aléatoire. NL Exhaust. "
-  },
-  "servantreloaded:Collapse": {
-  "NAME": "Effondrement",
-  "DESCRIPTION": "Infligez des dégâts égaux à votre Protection actuelle à TOUS les ennemis.",
-  "EXTENDED_DESCRIPTION": [" NL (Infligez !D! dégâts.)"]
-  },
-  "servantreloaded:Manipulate": {
-  "NAME": "Manipuler",
-  "DESCRIPTION": "Ajoutez X+1 cartes Temporelles aléatoires à votre pile de pioche.",
-  "UPGRADE_DESCRIPTION": "Ajoutez X+2 cartes Temporelles aléatoires à votre pile de pioche."
-  },
-  "servantreloaded:Misdirection": {
-  "NAME": "Tromperie",
-  "DESCRIPTION": "Gagnez !B! Block. NL Appliquez !M! Plaie et Weak."
-  },
-  "servantreloaded:MoonPhase": {
-  "NAME": "Phase lunaire",
-  "DESCRIPTION": "À la fin de votre tour, gagnez !M! Block pour chaque pile de Weak, Vulnerable et Frail sur vous."
-  },
-  "servantreloaded:Moonlight": {
-  "NAME": "Clair de lune",
-  "DESCRIPTION": "Lancez !M! Knives. NL Chacun inflige !D! dégâts à un ennemi aléatoire et pioche 1 carte."
-  },
-  "servantreloaded:BottledTime": {
-  "NAME": "Flacon temporel",
-  "DESCRIPTION": "Piochez !M! cartes. NL Exhaust.",
-  "UPGRADE_DESCRIPTION": "Inné. NL Piochez !M! cartes. NL Exhaust."
-  },
-  "servantreloaded:MurderousAura": {
-  "NAME": "Aura meurtrière",
-  "DESCRIPTION": "Au début de votre tour, appliquez 1 Plaie à TOUS les ennemis.",
-  "UPGRADE_DESCRIPTION": "Inné. NL Au début de votre tour, appliquez 1 Plaie à TOUS les ennemis."
-  },
-  "servantreloaded:Read": {
-  "NAME": "Lire",
-  "DESCRIPTION": "Vision : Gagnez !B! Protection et appliquez !M! Weak."
-  },
-  "servantreloaded:DancingSilver": {
-  "NAME": "Argent dansant",
-  "DESCRIPTION": "Convertissez !M! Knives en Satellites. NL Gagnez 2 Block pour chaque Satellite que vous possédez."
-  },
-  "servantreloaded:Potential": {
-  "NAME": "Potentiel",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Shift : Augmentez les dégâts de cette carte de !M! ce combat et remettez cette carte dans NL votre main."
-  },
-  "servantreloaded:Desolation": {
-  "NAME": "Désolation",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Doublez la NL Plaie de l'ennemi. NL Exhaust."
-  },
-  "servantreloaded:Deadline": {
-  "NAME": "Date limite",
-  "DESCRIPTION": "Vision : Appliquez !M! Plaie et Vulnerable. NL Exhaust."
-  },
-  "servantreloaded:RealityMarble": {
-  "NAME": "Marbre de réalité",
-  "DESCRIPTION": "Inné. NL À la fin de votre tour, conservez jusqu'à !M! carte. NL Les cartes que vous conservez perdent Ethereal pour ce combat."
-  },
-  "servantreloaded:Rearm": {
-  "NAME": "Réarmer",
-  "DESCRIPTION": "Piochez !M! cartes. NL Obtenez 5 Knives."
-  },
-  "servantreloaded:Replace": {
-  "NAME": "Remplacer",
-  "DESCRIPTION": "Défaussez une carte de votre pile de pioche. NL Placez une carte de votre pile de défausse en haut de votre pile de pioche."
-  },
-  "servantreloaded:Reset": {
-  "NAME": "Réinitialiser",
-  "DESCRIPTION": "Effacez TOUTES les Weak, Vulnerable et Frail. NL Chaque pile vous donne !M! Protection. NL Exhaust."
-  },
-  "servantreloaded:ReturningBlade": {
-  "NAME": "Lame de retour",
-  "DESCRIPTION": "Vision : Infligez !D! dégâts à TOUS les ennemis et mettez cette carte NL dans votre main. NL Peut être amélioré un nombre quelconque de fois."
-  },
-  "servantreloaded:Shuttle": {
-  "NAME": "Navette",
-  "DESCRIPTION": "Activez les effets des cartes et des reliques qui seront activés au début de votre prochain tour. NL Exhaust."
-  },
-  "servantreloaded:Rewind": {
-  "NAME": "Rembobiner",
-  "DESCRIPTION": "Gagnez !B! Block. NL Mettez la carte au bas de votre pile de défausse dans NL votre main."
-  },
-  "servantreloaded:Sabotage": {
+  "DESCRIPTION": "Throw 1 servantreloaded:Knife. NL Each deals !D! damage and bounces between enemies !M! times."
+ },
+ "servantreloaded:FlawlessForm": {
+  "NAME": "Flawless Form",
+  "DESCRIPTION": "Gain !M! servantreloaded:Protection. NL You are not affected by Weak, Vulnerable and Frail.",
+  "UPGRADE_DESCRIPTION": "Gain !M! servantreloaded:Protection. NL You are not affected by Weak, Vulnerable and Frail. NL Retain."
+ },
+ "servantreloaded:FloweringNight": {
+  "NAME": "Flowering Night",
+  "DESCRIPTION": "Whenever you play a card, draw a card. NL You may only draw !M! cards each turn by this power."
+ },
+ "servantreloaded:Initiator": {
+  "NAME": "Initiator",
+  "DESCRIPTION": "Deal !D! damage. NL Add Follow Up NL to your hand.",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add Follow Up+ NL to your hand."
+ },
+ "servantreloaded:FollowUp": {
+  "NAME": "Follow Up",
+  "DESCRIPTION": "Deal !D! damage. NL Add Follow Up 2 NL to your hand. NL Exhaust. NL Ethereal.",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add Follow Up 2+ NL to your hand. NL Exhaust. NL Ethereal."
+ },
+ "servantreloaded:FollowUp2": {
+  "NAME": "Follow Up 2",
+  "DESCRIPTION": "Deal !D! damage. NL Add Finishing Touch NL to your hand. NL Exhaust. NL Ethereal.",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add Finishing Touch+ NL to your hand. NL Exhaust. NL Ethereal."
+ },
+ "servantreloaded:FinishingTouch": {
+  "NAME": "Finishing Touch",
+  "DESCRIPTION": "Deal !D! damage. NL Gain 1 servantreloaded:Elegance. NL Exhaust. NL Ethereal."
+ },
+ "servantreloaded:Hightail": {
+  "NAME": "Hightail",
+  "DESCRIPTION": "Gain !M! servantreloaded:Protection NL X time(s). NL servantreloaded:Backlash."
+ },
+ "servantreloaded:Advance": {
+  "NAME": "Advance",
+  "DESCRIPTION": "Put !M! Cost 0 cards from your draw pile into your hand.",
+  "UPGRADE_DESCRIPTION": "Innate. NL Put !M! Cost 0 cards from your draw pile into your hand."
+ },
+ "servantreloaded:ForgedInTime": {
+  "NAME": "Forged in Time",
+  "DESCRIPTION": "Exhaust your hand. NL Gain !M! servantreloaded:Protection and 2 servantreloaded:Knives for each exhausted card. NL Exhaust."
+ },
+ "servantreloaded:Gouge": {
+  "NAME": "Gouge",
+  "DESCRIPTION": "Deal !D! damage and apply 1 servantreloaded:Blight X times. NL Exhaust.",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage and apply 1 servantreloaded:Blight X+1 times. NL Exhaust."
+ },
+ "servantreloaded:BestPractice": {
+  "NAME": "Best Practice",
+  "DESCRIPTION": "At the start of your turn, you may upgrade 1 card in your hand for the rest of combat."
+ },
+ "servantreloaded:Exchange": {
+  "NAME": "Exchange",
+  "DESCRIPTION": "Discard !M! cards. NL Obtain !M! servantreloaded:Knives.",
+  "UPGRADE_DESCRIPTION": "Discard !M! cards. NL Obtain !M! servantreloaded:Knives. NL Retain."
+ },
+ "servantreloaded:Luminosity": {
+  "NAME": "Luminosity",
+  "DESCRIPTION": "Gain 1 Strength. NL Gain !M! servantreloaded:Elegance."
+ },
+ "servantreloaded:KidneyShot": {
+  "NAME": "Kidney Shot",
+  "DESCRIPTION": "Throw !M! servantreloaded:Knives. NL Each deals !D! damage and apply 1 Weak."
+ },
+ "servantreloaded:WasteNot": {
+  "NAME": "Waste Not",
+  "DESCRIPTION": "At the end of your turn, spend all [B] . NL Draw 1 more card next turn for each [B] you spend."
+ },
+ "servantreloaded:KillingDoll": {
+  "NAME": "Killing Doll",
+  "DESCRIPTION": "Throw ALL servantreloaded:Knives. NL Each deals !D! damage to a random enemy. NL Exhaust. "
+ },
+ "servantreloaded:Collapse": {
+  "NAME": "Collapse",
+  "DESCRIPTION": "Deal damage equal to your current servantreloaded:Protection to ALL enemies.",
+  "EXTENDED_DESCRIPTION": [" NL (Deal !D! damage.)"]
+ },
+ "servantreloaded:Manipulate": {
+  "NAME": "Manipulate",
+  "DESCRIPTION": "Adds X+1 random servantreloaded:Temporal cards to your draw pile.",
+  "UPGRADE_DESCRIPTION": "Adds X+2 random servantreloaded:Temporal cards to your draw pile."
+ },
+ "servantreloaded:Misdirection": {
+  "NAME": "Misdirection",
+  "DESCRIPTION": "Gain !B! Block. NL Apply !M! servantreloaded:Blight and Weak."
+ },
+ "servantreloaded:MoonPhase": {
+  "NAME": "Moon Phase",
+  "DESCRIPTION": "At the end of your turn, gain !M! Block for each stack of Weak, Vulnerable and Frail on you."
+ },
+ "servantreloaded:Moonlight": {
+  "NAME": "Moonlight",
+  "DESCRIPTION": "Throw !M! servantreloaded:Knives. NL Each deals !D! damage and apply 1 Vulnerable."
+ },
+ "servantreloaded:CannedTime": {
+  "NAME": "Canned Time",
+  "DESCRIPTION": "Draw !M! cards. NL Exhaust.",
+  "UPGRADE_DESCRIPTION": "Innate. NL Draw !M! cards. NL Exhaust."
+ },
+ "servantreloaded:MurderousAura": {
+  "NAME": "Murderous Aura",
+  "DESCRIPTION": "At the start of your turn, apply 1 servantreloaded:Blight to ALL enemies.",
+  "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, apply 1 servantreloaded:Blight to ALL enemies."
+ },
+ "servantreloaded:Read": {
+  "NAME": "Read",
+  "DESCRIPTION": "servantreloaded:Vision: Gain !B! servantreloaded:Protection and apply !M! Weak."
+ },
+ "servantreloaded:DancingSilver": {
+  "NAME": "Dancing Silver",
+  "DESCRIPTION": "Convert !M! servantreloaded:Knives to servantreloaded:Satellites. NL Gain 2 Block for each servantreloaded:Satellite you have."
+ },
+ "servantreloaded:Potential": {
+  "NAME": "Potential",
+  "DESCRIPTION": "Deal !D! damage. NL servantreloaded:Shift: Deals !M! additional damage this combat and put this in your hand."
+ },
+ "servantreloaded:Desolation": {
+  "NAME": "Desolation",
+  "DESCRIPTION": "Deal !D! damage. NL Double the enemy's servantreloaded:Blight. NL Exhaust."
+ },
+ "servantreloaded:Deadline": {
+  "NAME": "Deadline",
+  "DESCRIPTION": "servantreloaded:Vision: Apply !M! servantreloaded:Blight and Vulnerable. NL Exhaust."
+ },
+ "servantreloaded:RealityMarble": {
+  "NAME": "Reality Marble",
+  "DESCRIPTION": "Innate. NL At the end of your turn, Retain up to !M! card. NL The cards you retain lose Ethereal for this combat."
+ },
+ "servantreloaded:Rearm": {
+  "NAME": "Rearm",
+  "DESCRIPTION": "Draw !M! cards. NL Obtain 5 servantreloaded:Knives."
+ },
+ "servantreloaded:Replace": {
+  "NAME": "Replace",
+  "DESCRIPTION": "Discard a card from your draw pile. NL Place a card from your discard pile on top of your draw pile."
+ },
+ "servantreloaded:Reset": {
+  "NAME": "Reset",
+  "DESCRIPTION": "Clear ALL Weak, Vulnerable and Frail. NL Each stack gives you !M! servantreloaded:Protection. NL Exhaust."
+ },
+ "servantreloaded:ReturningBlade": {
+  "NAME": "Returning Blade",
+  "DESCRIPTION": "servantreloaded:Vision: Deal !D! damage to ALL enemies, put this card in your hand. NL Can be upgraded any number of times."
+ },
+ "servantreloaded:Shuttle": {
+  "NAME": "Shuttle",
+  "DESCRIPTION": "Activate card and relic effects that will activate at the start of your next turn. NL Exhaust."
+ },
+ "servantreloaded:Rewind": {
+  "NAME": "Rewind",
+  "DESCRIPTION": "Gain !B! Block. NL Put the card at the bottom of your discard pile in your hand."
+ },
+ "servantreloaded:Sabotage": {
   "NAME": "Sabotage",
-  "DESCRIPTION": "Infligez !D! dégâts. NL L'ennemi perd de la Force égale aux dégâts pendant 1 tour. NL Exhaust."
-  },
-  "servantreloaded:ShiftingGears": {
-  "NAME": "Shift de vitesse",
-  "DESCRIPTION": "Piochez !M! cartes. NL Shift : Gagnez 1 Elegance."
-  },
-  "servantreloaded:ShatteredReality": {
-  "NAME": "Réalité brisée",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Shift : Infligez le double de dégâts à TOUS les ennemis."
-  },
-  "servantreloaded:SilverMatrix": {
-  "NAME": "Matrice argentée",
-  "DESCRIPTION": "Convertissez !M! Knives en Satellites. NL Gagnez 1 Matrice pour chaque Satellite que vous possédez."
-  },
-  "servantreloaded:SilverBlades": {
-  "NAME": "Lames d'argent",
-  "DESCRIPTION": "Les Knives infligent !M! dégâts supplémentaires. NL Au début NL de votre tour, NL obtenez !M! Knives."
-  },
-  "servantreloaded:Snipe": {
-  "NAME": "Tir de précision",
-  "DESCRIPTION": "Vision : Lancez 1 Knive. NL Chacun inflige !D! dégâts et applique !M! Vulnerable."
-  },
-  "servantreloaded:Solidify": {
-  "NAME": "Solidifier",
-  "DESCRIPTION": "Choisissez 1 carte Temporelle et placez-la en haut de votre pile de pioche. NL Exhaust.",
-  "UPGRADE_DESCRIPTION": "Choisissez 1 carte Temporelle deux fois et placez-la en haut de votre pile de pioche. NL Exhaust."
-  },
-  "servantreloaded:SoulSculpture": {
-  "NAME": "Sculpture de l'âme",
-  "DESCRIPTION": "Infligez !D! dégâts NL 6 fois. NL L'ennemi perd NL !M! Force. NL Exhaust."
-  },
-  "servantreloaded:SpecialFormula": {
-  "NAME": "Formule spéciale",
-  "DESCRIPTION": "Gagnez [B] . NL Soignez !M! PV. NL Backlash. NL Exhaust."
-  },
-  "servantreloaded:Spin": {
-  "NAME": "Tourner",
-  "DESCRIPTION": "Infligez !D! dégâts et appliquez !M! Weak à TOUS les ennemis. NL Backlash."
-  },
-  "servantreloaded:StarChef": {
-  "NAME": "Chef étoilé",
-  "DESCRIPTION": "Au début de votre tour, vous pouvez épuiser 1 carte et gagner [B] . NL Ethereal.",
-  "UPGRADE_DESCRIPTION": "Au début de votre tour, vous pouvez épuiser 1 carte et gagner [B] ."
-  },
-  "servantreloaded:Starlight": {
-  "NAME": "Lumière des étoiles",
-  "DESCRIPTION": "Lancez !M! Knives. NL Chacun inflige !D! dégâts à un ennemi aléatoire et pioche 1 carte."
-  },
-  "servantreloaded:Foresight": {
-  "NAME": "Prévoyance",
-  "DESCRIPTION": "Au début de votre tour, regardez les NL !M! premières cartes de NL votre pile de pioche. NL Vous pouvez défausser NL n'importe laquelle d'entre elles."
-  },
-  "servantreloaded:Sunlight": {
-  "NAME": "Lumière du soleil",
-  "DESCRIPTION": "Lancez 1 Knive. NL Chacun inflige !D! dégâts NL et applique !M! Plaie NL à TOUS les ennemis."
-  },
-  "servantreloaded:SurpressingFire": {
-  "NAME": "Feu de suppression",
-  "DESCRIPTION": "Chaque fois que vous lancez ou convertissez un Knive, gagnez !M! Block."
-  },
-  "servantreloaded:TimeTheft": {
-  "NAME": "Vol de temps",
-  "DESCRIPTION": "Vision : Gagnez [B] [B] . NL Piochez !M! cartes. NL Exhaust.",
-  "UPGRADE_DESCRIPTION": "Vision : Gagnez [B] [B] [B] . NL Piochez !M! cartes. NL Exhaust."
-  },
-  "servantreloaded:TemporalDefense": {
-  "NAME": "Défense temporelle",
-  "DESCRIPTION": "Vision : Gagnez !B! Block NL et [B] . NL Exhaust."
-  },
-  "servantreloaded:Throw": {
-  "NAME": "Lancer",
-  "DESCRIPTION": "Lancez 1 Knive. NL Chacun inflige !D! dégâts et rebondit entre les ennemis !M! fois."
-  },
-  "servantreloaded:TimeSnap": {
-  "NAME": "Instantané temporel",
-  "DESCRIPTION": "Vision : Piochez !M! cartes NL et dépensez [B] . NL Exhaust."
-  },
-  "servantreloaded:TimeDilation": {
-  "NAME": "Dilatation temporelle",
-  "DESCRIPTION": "Gagnez !M! Protection. NL Augmentez la Protection de cette carte de 1 ce combat."
-  },
-  "servantreloaded:TimeFlux": {
-  "NAME": "Flux temporel",
-  "DESCRIPTION": "Gagnez !M! Protection. NL Obtenez !M! Élégance."
-  },
-  "servantreloaded:TimeJump": {
-  "NAME": "Saut temporel",
-  "DESCRIPTION": "Gagnez !M! Protection. NL Défaussez jusqu'à !M! cartes. NL Piochez le même nombre de cartes."
-  },
-  "servantreloaded:TimeLapse": {
-  "NAME": "Laps de temps",
-  "DESCRIPTION": "Gagnez !M! Protection. NL Piochez une carte en moins le tour suivant. NL Exhaust."
-  },
-  "servantreloaded:TimeLock": {
-  "NAME": "Block temporel",
-  "DESCRIPTION": "Gagnez !B! Block NL et [B] . NL Exhaust."
-  },
-  "servantreloaded:TimeLoop": {
-  "NAME": "Boucle temporelle",
-  "DESCRIPTION": "Gagnez !B! Block. NL Piochez !M! cartes. NL Exhaust."
-  },
-  "servantreloaded:TimeShift": {
-  "NAME": "Décalage temporel",
-  "DESCRIPTION": "Gagnez !B! Block. NL Vous pouvez rejouer cette carte ce tour."
-  },
-  "servantreloaded:TimeSlice": {
-  "NAME": "Tranche temporelle",
-  "DESCRIPTION": "Gagnez !B! Block NL et [B] . NL Backlash. NL Exhaust."
-  },
-  "servantreloaded:TimeStop": {
-  "NAME": "Arrêt temporel",
-  "DESCRIPTION": "Gagnez !B! Block. NL Vous ne pouvez pas piocher de cartes ce tour. NL Backlash."
-  },
-  "servantreloaded:TimeStrike": {
-  "NAME": "Frappe temporelle",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Augmentez les dégâts de cette carte de 1 ce combat."
-  },
-  "servantreloaded:TimeWarp": {
-  "NAME": "Distorsion temporelle",
-  "DESCRIPTION": "Gagnez !B! Block. NL Vous pouvez rejouer une carte déjà jouée ce tour. NL Exhaust."
-  },
-  "servantreloaded:Revamp": {
-  "NAME": "Réaménagement",
-  "DESCRIPTION": "Prenez !M! carte de votre pile de défausse dans votre main et améliorez-la. NL Exhaust.",
-  "UPGRADE_DESCRIPTION": "Prenez !M! carte de votre pile de défausse dans votre main et améliorez-la."
-  },
-  "servantreloaded:TrueSight": {
-  "NAME": "Vraie vue",
-  "DESCRIPTION": "Les effets de vision seront toujours déclenchés.",
-  "UPGRADE_DESCRIPTION": "Les effets de vision seront toujours déclenchés. NL Retain."
-  },
-  "servantreloaded:Unruled": {
-  "NAME": "Non régi",
-  "DESCRIPTION": "Infligez !D! dégâts. NL Pour chaque pile de Faible, Vulnerable et Frail sur vous, infligez !M! dégâts supplémentaires."
-  },
-  "servantreloaded:LightFlow": {
-  "NAME": "Flux lumineux",
-  "DESCRIPTION": "Infligez !D! dégâts NL 3 fois. NL Backlash."
-  }
-  }
+  "DESCRIPTION": "Deal !D! damage. NL Enemy loses Strength equals to the damage for 1 turn. NL Exhaust."
+ },
+ "servantreloaded:ShiftingGears": {
+  "NAME": "Shifting Gears",
+  "DESCRIPTION": "Draw !M! cards. NL servantreloaded:Shift: Gain 1 servantreloaded:Elegance."
+ },
+ "servantreloaded:ShatteredReality": {
+  "NAME": "Shattered Reality",
+  "DESCRIPTION": "Deal !D! damage. NL servantreloaded:Shift: Deal DOUBLE damage to ALL enemies."
+ },
+ "servantreloaded:SilverMatrix": {
+  "NAME": "Silver Matrix",
+  "DESCRIPTION": "Convert !M! servantreloaded:Knives to servantreloaded:Satellites. NL Gain 1 Matrix for each servantreloaded:Satellite you have."
+ },
+ "servantreloaded:SilverBlades": {
+  "NAME": "Silver Blades",
+  "DESCRIPTION": "servantreloaded:Knives deal !M! additional damage. NL At the start NL of your turn, NL obtain !M! servantreloaded:Knives."
+ },
+ "servantreloaded:Snipe": {
+  "NAME": "Snipe",
+  "DESCRIPTION": "servantreloaded:Vision: Throw 1 servantreloaded:Knife. NL Each deals !D! damage and apply !M! Vulnerable."
+ },
+ "servantreloaded:Solidify": {
+  "NAME": "Solidify",
+  "DESCRIPTION": "Choose 1 servantreloaded:Temporal card and place it on top of your draw pile. NL Exhaust.",
+  "UPGRADE_DESCRIPTION": "Choose 1 servantreloaded:Temporal card twice and place it on top of your draw pile. NL Exhaust."
+ },
+ "servantreloaded:SoulSculpture": {
+  "NAME": "Soul Sculpture",
+  "DESCRIPTION": "Deal !D! damage NL six times. NL Enemy loses NL !M! Strength. NL Exhaust."
+ },
+ "servantreloaded:SpecialFormula": {
+  "NAME": "Special Formula",
+  "DESCRIPTION": "Gain [B] . NL Heal !M! HP. NL servantreloaded:Backlash. NL Exhaust."
+ },
+ "servantreloaded:Spin": {
+  "NAME": "Spin",
+  "DESCRIPTION": "Deal !D! damage and apply !M! Weak to ALL enemies. NL servantreloaded:Backlash."
+ },
+ "servantreloaded:StarChef": {
+  "NAME": "Star Chef",
+  "DESCRIPTION": "At the start of your turn, you may exhaust 1 card and gain [B] . NL Ethereal.",
+  "UPGRADE_DESCRIPTION": "At the start of your turn, you may exhaust 1 card and gain [B] ."
+ },
+ "servantreloaded:Starlight": {
+  "NAME": "Starlight",
+  "DESCRIPTION": "Throw !M! servantreloaded:Knives. NL Each deals !D! damage to a random enemy and draw 1 card."
+ },
+ "servantreloaded:Foresight": {
+  "NAME": "Foresight",
+  "DESCRIPTION": "At the start of your turn, look at the NL top !M! cards of NL your draw pile. NL You may discard NL any of them."
+ },
+ "servantreloaded:Sunlight": {
+  "NAME": "Sunlight",
+  "DESCRIPTION": "Throw 1 servantreloaded:Knife. NL Each deals !D! damage NL and apply !M! servantreloaded:Blight NL to ALL enemies."
+ },
+ "servantreloaded:SurpressingFire": {
+  "NAME": "Surpressing Fire",
+  "DESCRIPTION": "Whenever you throw or convert a servantreloaded:Knife, gain !M! Block."
+ },
+ "servantreloaded:TimeTheft": {
+  "NAME": "Time Theft",
+  "DESCRIPTION": "servantreloaded:Vision: Gain [B] [B] . NL Draw !M! cards. NL Exhaust.",
+  "UPGRADE_DESCRIPTION": "servantreloaded:Vision: Gain [B] [B] [B] . NL Draw !M! cards. NL Exhaust."
+ },
+ "servantreloaded:TemporalDefense": {
+  "NAME": "Temporal Defense",
+  "DESCRIPTION": "servantreloaded:Temporal. NL Gain !B! Block. NL Gain !M! servantreloaded:Protection."
+ },
+ "servantreloaded:TemporalEssence": {
+  "NAME": "Temporal Essence",
+  "DESCRIPTION": "servantreloaded:Temporal. NL Gain [B] . NL Draw !M! cards.",
+  "UPGRADE_DESCRIPTION": "servantreloaded:Temporal. NL Gain [B] [B] . NL Draw !M! cards."
+ },
+ "servantreloaded:TemporalMisd": {
+  "NAME": "Temporal Misd.",
+  "DESCRIPTION": "servantreloaded:Temporal. NL Apply !M! servantreloaded:Blight and Weak to ALL enemies."
+ },
+ "servantreloaded:TemporalSlicing": {
+  "NAME": "Temporal Slicing",
+  "DESCRIPTION": "servantreloaded:Temporal. NL Deal !D! damage !M! times to ALL enemies."
+ },
+ "servantreloaded:TheWorld": {
+  "NAME": "The World",
+  "DESCRIPTION": "Draw !M! cards. NL The next card you play this turn costs 0. Exhaust."
+ },
+ "servantreloaded:Contraction": {
+  "NAME": "Contraction",
+  "DESCRIPTION": "Gain !M! servantreloaded:Protection. NL Convert all Block to servantreloaded:Protection."
+ },
+ "servantreloaded:TimeWarp": {
+  "NAME": "Time Warp",
+  "DESCRIPTION": "Deal !D! damage. NL Discard !M! card(s). NL servantreloaded:Shift: Draw 1 card."
+ },
+ "servantreloaded:TrashToTreasure": {
+  "NAME": "Trash to Treasure",
+  "DESCRIPTION": "Return !M! card from your discard pile to your hand and NL upgrade it. NL Exhaust.",
+  "UPGRADE_DESCRIPTION": "Return !M! card from your discard pile to your hand and NL upgrade it."
+ },
+ "servantreloaded:TrueSight": {
+  "NAME": "True Sight",
+  "DESCRIPTION": "servantreloaded:Vision effects will always be triggered.",
+  "UPGRADE_DESCRIPTION": "servantreloaded:Vision effects will always be triggered. NL Retain."
+ },
+ "servantreloaded:Unruled": {
+  "NAME": "Unruled",
+  "DESCRIPTION": "Deal !D! damage. NL For each stack of Weak, Vulnerable and Frail on you, deal !M! additional damage."
+ },
+ "servantreloaded:LightFlow": {
+  "NAME": "Light Flow",
+  "DESCRIPTION": "Deal !D! damage NL 3 times. NL servantreloaded:Backlash."
+ }
+}

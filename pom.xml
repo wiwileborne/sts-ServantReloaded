@@ -4,7 +4,7 @@
     <groupId>com.wiwileborne</groupId>
 
     <artifactId>ServantReloaded</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <name>Servant Reloaded</name>
     <description>Adds The Servant as a new playable character.</description>
     <!-- Change the above for mod information. -->

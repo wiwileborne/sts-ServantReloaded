@@ -1,4 +1,4 @@
-# StS-ServantReloaded 1.0.0
+# StS-ServantReloaded 1.1.0
 
 **ServantReloaded** adds The Servant as a new playable character to **Slay The Spire**.
 
@@ -104,6 +104,10 @@ Contributors of **FruityMod**
 * LikeAWass, Celerity, JohnDruitt, Zoochz, SirJesterful, and Jimquisitive for playtesting and feedback
 
 
+1.1.0
+* Add English language.
+* many patch bugs
+
 1.0.0
 * Fork and code many code Upgrade and test.
 * Add French language.
@@ -118,7 +122,7 @@ Contributors of **FruityMod**
 * Fixed: Vision cards will crash the game if you are not playing as the Servant.
 
 0.9.2.3
-*Fixed a bug which prevent [Strike] from being transformed in events.
+* Fixed a bug which prevent [Strike] from being transformed in events.
 
 0.9.2.2
 * Support for BaseMod 3.5.0.
